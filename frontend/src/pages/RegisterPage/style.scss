@@ -1,0 +1,55 @@
+.loginPage {
+  min-height: 100vh;
+  padding: 20px;
+  background-color: $main-bg;
+
+  &__wrapper {
+    min-height: calc(100vh - 40px);
+
+    &--card {
+      width: 100%;
+      max-width: 600px;
+      background: $second-bg;
+      border: 1px solid $third-bg;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+
+      .ant-card-body {
+        padding: 40px 32px;
+        background: $second-bg;
+        border-radius: 12px;
+      }
+
+      &-header {
+        text-align: center;
+        margin-bottom: 32px;
+        border-bottom: 1px solid $third-bg;
+        padding-bottom: 20px;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        button {
+          margin-top: 24px;
+        }
+      }
+
+      &-footer {
+        text-align: center;
+        margin-top: 24px;
+        padding-top: 20px;
+        border-top: 1px solid $third-bg;
+
+        a {
+          color: $main-color;
+
+          &:hover {
+            color: $hover-main-color;
+          }
+        }
+      }
+    }
+  }
+}

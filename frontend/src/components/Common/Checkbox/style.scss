@@ -1,0 +1,19 @@
+.component-checkbox {
+  .ant-checkbox {
+    &:hover .ant-checkbox-inner {
+      border-color: $main-color;
+    }
+  }
+
+  .ant-checkbox-checked {
+    .ant-checkbox-inner {
+      background-color: $main-color !important;
+      border-color: $main-color;
+    }
+  }
+
+  .ant-checkbox-label {
+    color: $white-text;
+    font-size: 14px;
+  }
+}

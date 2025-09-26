@@ -1,0 +1,59 @@
+.component-text {
+  display: block;
+
+  &-size {
+    &-large {
+      font-size: 28px;
+    }
+    &-semi-large {
+      font-size: 18px;
+    }
+    &-middle {
+      font-size: 16px;
+      line-height: 20px;
+    }
+    &-semi-small {
+      font-size: 14px;
+    }
+    &-small {
+      font-size: 12px;
+    }
+  }
+
+  &-weight {
+    &-light {
+      font-weight: 200;
+    }
+    &-semi-light {
+      font-weight: 400;
+    }
+    &-middle {
+      font-weight: 500;
+    }
+    &-semi-bold {
+      font-weight: 600;
+    }
+    &-bold {
+      font-weight: 700;
+    }
+  }
+
+  &-color {
+    &-default {
+      color: $second-color;
+    }
+    &-primary {
+      color: $main-color;
+    }
+    &-white {
+      color: $white-color;
+    }
+    &-error {
+      color: red;
+    }
+  }
+
+  &-label {
+    margin-bottom: 8px;
+  }
+}

@@ -1,0 +1,39 @@
+.component-select {
+  width: 100%;
+  height: 44px;
+
+  .ant-select-selector {
+    background-color: $third-bg !important;
+    border: none !important;
+    padding-left: 12px;
+
+    .ant-select-selection-item {
+      color: $white-color !important;
+      font-size: 16px;
+    }
+
+    .ant-select-selection-placeholder {
+      color: #a1a1a1 !important;
+      font-size: 16px;
+    }
+
+    .ant-select-selection-search {
+      margin-left: 0;
+    }
+  }
+
+  .ant-select-arrow {
+    color: $white-color;
+  }
+
+  &-error {
+    border: 1px solid red;
+    border-radius: 6px;
+  }
+}
+
+.ant-select-dropdown {
+  .ant-select-item-option-selected {
+    background-color: #f5b9c782 !important;
+  }
+}

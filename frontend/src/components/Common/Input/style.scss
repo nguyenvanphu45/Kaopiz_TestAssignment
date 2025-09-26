@@ -1,0 +1,41 @@
+.component-input {
+  line-height: normal;
+  color: $white-color;
+  font-size: 16px;
+  background-color: $third-bg;
+  border: 1px solid transparent;
+  outline: none;
+
+  &:focus,
+  &:hover {
+    background-color: $third-bg;
+    border-color: transparent;
+    box-shadow: none;
+  }
+
+  &::placeholder,
+  input::placeholder {
+    color: #a1a1a1;
+  }
+
+  &-size {
+    &-middle {
+      height: 44px;
+      padding: 12px;
+    }
+
+    &-large {
+      height: 52px;
+      padding: 16px;
+    }
+  }
+
+  &-error {
+    border-color: red;
+
+    &:focus,
+    &:hover {
+      border-color: red;
+    }
+  }
+}
