@@ -69,8 +69,23 @@ namespace backend.Services
 			{
 				var user = await _db.Users.FirstOrDefaultAsync(u => u.Email == request.Email);
 
-				if (user == null || !BCrypt.Net.BCrypt.Verify(request.Password, user.PasswordHash))
-					return new ServiceResponse<AuthResponse> { Message = "Invalid credentials", Status = 401 };
+				if (user == null)
+				{
+					return new ServiceResponse<AuthResponse> 
+					{ 
+						Message = "Invalid email", 
+						Status = 400 
+					};
+				}
+
+				if (!BCrypt.Net.BCrypt.Verify(request.Password, user.PasswordHash))
+				{
+					return new ServiceResponse<AuthResponse> 
+					{ 
+						Message = "Wrong password", 
+						Status = 400 
+					};
+				}
 
 				var authResponse = await GenerateAuthResponse(user, request.RememberMe);
 

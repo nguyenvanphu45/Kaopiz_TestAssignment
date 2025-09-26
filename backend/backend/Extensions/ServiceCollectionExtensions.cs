@@ -11,6 +11,16 @@ namespace backend.Extensions
 	{
 		public static IServiceCollection AddAuthModule(this IServiceCollection services, IConfiguration configuration)
 		{
+			services.AddCors(options =>
+			 {
+				 options.AddPolicy("AllowAll", builder =>
+				 {
+					 builder.AllowAnyOrigin()
+							.AllowAnyMethod()
+							.AllowAnyHeader();
+				 });
+			 });
+
 			services.AddDbContext<AppDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("Default"))
 				.EnableSensitiveDataLogging()
 				.EnableDetailedErrors());

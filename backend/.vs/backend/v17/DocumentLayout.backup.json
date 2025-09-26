@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\TestAssignment\\backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EA1AC073-F57F-4653-8A87-020A627D3C94}|backend\\backend.csproj|c:\\users\\admin\\source\\repos\\testassignment\\backend\\backend\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA1AC073-F57F-4653-8A87-020A627D3C94}|backend\\backend.csproj|solutionrelative:backend\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA1AC073-F57F-4653-8A87-020A627D3C94}|backend\\backend.csproj|c:\\users\\admin\\source\\repos\\testassignment\\backend\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA1AC073-F57F-4653-8A87-020A627D3C94}|backend\\backend.csproj|solutionrelative:backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA1AC073-F57F-4653-8A87-020A627D3C94}|backend\\backend.csproj|c:\\users\\admin\\source\\repos\\testassignment\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA1AC073-F57F-4653-8A87-020A627D3C94}|backend\\backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA1AC073-F57F-4653-8A87-020A627D3C94}|backend\\backend.csproj|c:\\users\\admin\\source\\repos\\testassignment\\backend\\backend\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA1AC073-F57F-4653-8A87-020A627D3C94}|backend\\backend.csproj|solutionrelative:backend\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EA1AC073-F57F-4653-8A87-020A627D3C94}|backend\\backend.csproj|c:\\users\\admin\\source\\repos\\testassignment\\backend\\backend\\migrations\\20250924144349_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA1AC073-F57F-4653-8A87-020A627D3C94}|backend\\backend.csproj|solutionrelative:backend\\migrations\\20250924144349_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,14 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EA1AC073-F57F-4653-8A87-020A627D3C94}|backend\\backend.csproj|c:\\users\\admin\\source\\repos\\testassignment\\backend\\backend\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA1AC073-F57F-4653-8A87-020A627D3C94}|backend\\backend.csproj|solutionrelative:backend\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA1AC073-F57F-4653-8A87-020A627D3C94}|backend\\backend.csproj|c:\\users\\admin\\source\\repos\\testassignment\\backend\\backend\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA1AC073-F57F-4653-8A87-020A627D3C94}|backend\\backend.csproj|solutionrelative:backend\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA1AC073-F57F-4653-8A87-020A627D3C94}|backend\\backend.csproj|c:\\users\\admin\\source\\repos\\testassignment\\backend\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA1AC073-F57F-4653-8A87-020A627D3C94}|backend\\backend.csproj|solutionrelative:backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,20 +50,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TestAssignment\\backend\\backend\\Program.cs",
+              "RelativeDocumentMoniker": "backend\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TestAssignment\\backend\\backend\\Program.cs",
+              "RelativeToolTip": "backend\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T07:04:22.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TestAssignment\\backend\\backend\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "backend\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TestAssignment\\backend\\backend\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "backend\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T07:00:39.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "20250924144349_init.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TestAssignment\\backend\\backend\\Migrations\\20250924144349_init.cs",
               "RelativeDocumentMoniker": "backend\\Migrations\\20250924144349_init.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\TestAssignment\\backend\\backend\\Migrations\\20250924144349_init.cs",
               "RelativeToolTip": "backend\\Migrations\\20250924144349_init.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T14:43:49.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T14:43:49.776Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TestAssignment\\backend\\backend\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "backend\\Data\\AppDbContext.cs",
@@ -63,25 +94,24 @@
               "RelativeToolTip": "backend\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T14:37:31.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T14:37:31.274Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TestAssignment\\backend\\backend\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "backend\\Services\\AuthService.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\TestAssignment\\backend\\backend\\Services\\AuthService.cs",
               "RelativeToolTip": "backend\\Services\\AuthService.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAIAwwC0AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-24T14:30:01.713Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TestAssignment\\backend\\backend\\Models\\Users.cs",
               "RelativeDocumentMoniker": "backend\\Models\\Users.cs",
@@ -89,21 +119,19 @@
               "RelativeToolTip": "backend\\Models\\Users.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwBAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T14:29:26.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T14:29:26.155Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TestAssignment\\backend\\backend\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "backend\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\TestAssignment\\backend\\backend\\Controllers\\AuthController.cs",
               "RelativeToolTip": "backend\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T14:29:23.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T14:29:23.604Z"
             }
           ]
         },
